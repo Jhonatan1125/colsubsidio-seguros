@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "dist/spa",
   },
+  base: "/colsubsidio-seguros/",
   plugins: [react(), expressPlugin()],
   resolve: {
     alias: {
